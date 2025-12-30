@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daniel | Front-End Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <nav class="container nav">
+    <div class="logo"></div>
+
+    <ul class="nav-links">
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="menu-toggle" id="menuToggle">&#9776;</div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero container reveal" id="home">
+  <div class="hero-text">
+    <h1>Hi, I am Daniel,<br><span>Front-End Developer</span></h1>
+    <p>
+      I'm a 300 level Computer Science Student of Bowen University and
+      a passionate front-end developer. I create web applications with
+      great user experience and clean design.
+    </p>
+    <!-- <button class="btn">Download Resume</button> -->
+     <a href="assets/Daniel-Adedoyin-Resume.pdf"
+   class="btn"
+   download
+   target="_blank">
+   Download Resume
+      </a>
+
+  </div>
+
+  <div class="hero-img">
+    <img src="./image_1_1767006336085.jpg" alt="Daniel">
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="posts ">
+  <div class="container">
+    <div class="posts-header">
+      <h3>Skills</h3>
+      <a href="#projects">Projects</a>
+    </div>
+
+    <div class="post-grid">
+      <div class="post-card">
+        <h4>HTML</h4>
+        <span>Semantic, SEO-friendly Markup</span>
+        <p>Building accessible and well-structured web pages.</p>
+      </div>
+
+      <div class="post-card">
+        <h4>CSS</h4>
+        <span>Flexbox, Grid, Animations</span>
+        <p>Creating responsive layouts and smooth animations.</p>
+      </div>
+
+      <div class="post-card">
+        <h4>JavaScript</h4>
+        <span>ES6+, DOM, APIs</span>
+        <p>Adding interactivity, logic, and dynamic content.</p>
+      </div>
+
+      <div class="post-card">
+        <h4>React.js</h4>
+        <span>Components, Hooks, Router</span>
+        <p>Building reusable components and managing state.</p>
+      </div>
+
+      <div class="post-card">
+        <h4>Python</h4>
+        <span>Tkinter, PyQt, OOP</span>
+        <p>Building GUIs and object-oriented programs.</p>
+      </div>
+
+      <div class="post-card">
+        <h4>Java</h4>
+        <span>GUI & OOP</span>
+        <p>Building object-oriented desktop applications.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="projects" class="projects">
+  <div class="container">
+
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-grid">
+
+      <!-- Project Card -->
+      <div class="project-card">
+        <img src="./Screenshot (6).png" alt="Coffee Website">
+        <div class="project-content">
+          <h3>Coffee Website</h3>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="./Screenshot (12).png" alt="Travelling Agency">
+        <div class="project-content">
+          <h3>Travelling Agency</h3>
+          <div class="tags">
+            <span>HTML</span>
+            <span>TailwindCSS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="./Screenshot (25).png" alt="Deriv Clone">
+        <div class="project-content">
+          <h3>Deriv Clone Website</h3>
+          <div class="tags">
+            <span>ReactJS</span>
+            <span>CSS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="./Screenshot (3).png" alt="Expense Tracker">
+        <div class="project-content">
+          <h3>Expense Tracker</h3>
+          <div class="tags">
+            <span>Python</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container contact-container">
+
+    <div class="contact-left">
+      <h1 class="section-title">Contact</h1>
+
+      <h2>Let’s work together</h2>
+      <p>
+        Have a project in mind or just want to say hello?
+        Feel free to reach out, I’m always open to discussing
+        new ideas and opportunities.
+      </p>
+
+      <ul class="contact-details">
+        <li>
+          <span>📧</span>
+          <a href="mailto:ibukunade1960@gmail.com">
+            ibukunade1960@gmail.com
+          </a>
+        </li>
+        <li><span>📍</span> Lagos, Nigeria</li>
+        <li>
+          <span>📞</span>
+          <a href="tel:+2349033481474">
+            +234 903 348 1474
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <form
+      class="contact-form"
+      action="https://formspree.io/f/xyzabcd"
+      method="POST"
+    >
+      <h3>Send a message</h3>
+
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+
+      <button type="submit" class="btn-primary">
+        Send Message
+      </button>
+
+      <p class="form-status"></p>
+    </form>
+
+  </div>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
